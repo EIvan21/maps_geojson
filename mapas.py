@@ -1,6 +1,8 @@
 import xml.etree.ElementTree as ET
 import json
 
+# URL EARTH https://earth.google.com/earth/d/1EZm0gdxRJSdQdkzRHrIXDp1ROVBhTMkt?usp=sharing
+
 def kml_to_geojson(kml_path, geojson_path):
     
     tree = ET.parse(kml_path)
